@@ -15,7 +15,7 @@ function getJSON(url, callback) {
 
 
 function getGitHubIssuesWithLabel(label, callback) {
-    var url = 'https://api.github.com/repos/cfpb/hackathon/issues?labels=' + label;
+    var url = 'https://api.github.com/repos/interior/hackathon/issues?labels=' + label;
     getJSON(url, callback);
 }
 
